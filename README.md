@@ -1,4 +1,4 @@
-#Android Project : Prime Time by AP
+# Android Project : Prime Time by AP
 >This term project belongs to  88832859 Software Engineering for Smart Devices.
 
 ### 1. INTRODUCTION
