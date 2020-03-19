@@ -8,7 +8,7 @@
 ------------
 
 
-### 2. Technology and Technique
+### 2. Technology and Techniques
 >All of the technology or techniques below are chosen from diverse lessons in the classroom.
 
 1. Fragment view
