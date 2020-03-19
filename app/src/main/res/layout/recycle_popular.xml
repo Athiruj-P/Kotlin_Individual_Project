@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recyview_layout"
+    android:orientation="vertical"
+    android:layout_width="275dp"
+    android:layout_height="475dp"
+    android:background="@drawable/card_thumb_nail"
+    android:layout_marginLeft="5dp"
+    android:fontFamily="sans-serif-medium"
+    android:layout_marginRight="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@drawable/card_thumb_nail"
+        android:gravity="top">
+
+        <ImageView
+            android:id="@+id/movie_thumb_nail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="fitStart"
+            android:src="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/movie_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/movie_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 hr 30 m"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_marginRight="15sp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10sp"
+                android:scaleType="fitStart"
+                android:src="@drawable/imdb" />
+
+            <TextView
+                android:id="@+id/movie_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 / 10"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/movie_plot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+</LinearLayout>
